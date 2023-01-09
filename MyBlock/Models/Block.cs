@@ -4,6 +4,7 @@ namespace MyBlock.mvc.Models
 {
     public class Block
     {
+        //Myblog sitega model
         [Key, Required]
         public Guid Id { get; set; }
         public DateTime Time { get; set; }
